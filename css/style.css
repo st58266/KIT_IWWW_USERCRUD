@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+    width: 80%;
+    font-family:  arial;
+    background-color: aliceblue;
+
+}
+#header {
+    background-image: url("../img/img1.png");
+    /*background-color: aliceblue;*/
+    height: 70px;
+    width: 100%;
+}
+
+#menu {
+    width: 100%;
+    height: 35px;
+    background-color: aquamarine;
+}
+
+#menu-items {
+    display: flex;
+}
+
+
+#menu-items a {
+
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+#menu-items a:hover {
+    background: #401408;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content{
+    /*margin: 10px;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.radek{
+    margin: 0.8em;
+    text-align: center;
+}
+
+#block {
+    display: block;
+}
+
+#content img  {
+    width: 200px;
+    margin: 5px;
+}
+
+.zoomedIMG img {
+    width: 100%;
+}
+
+#footer {
+    background-color: darkcyan;
+    color: white;
+}
+
+#menu label, #hamburger { display: none; float: left;}
+
